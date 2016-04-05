@@ -1,0 +1,6 @@
+<h3>Here is a list of all subcommittees of your committee.</h3>
+{{#each model as |subcommittee|}}
+  {{subcommittee-tile subcommittee=subcommittee}}
+{{/each}}
+
+{{#link-to 'committees'}}Back to list of all committees.{{/link-to}}
